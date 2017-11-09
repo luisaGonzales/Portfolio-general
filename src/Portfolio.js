@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'redux-zero/react';
 import { selectSectionAction } from './actions';
-import './Portfolio.css';
+import './archive.css';
 import personImage from './assets/person1.jpg';
 
 const Header = ({ onCollapseClick, student }) => (
